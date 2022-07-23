@@ -1,8 +1,8 @@
-# Spotify-Account-Creator
-Creates Spotify accounts for you.
+# SpoTeaPy Account Generatoe
+Creates random spotify account.
 
 ## Information
-This was made to show you how easy it is to abuse a website like this. People can profit by first mass-creating accounts, then use a Spotify "streaming bot" that gives you views on your song. If you're interested, I can develop a streaming bot too so you can have a look at how they work. For the record, this hides your identity by using proxies. Not only does it hide your identity, but also prevents yourself from getting rate limited on their website. Please do not use this, it is once again only meant for you to learn how account creators work. However, if you choose to use this you are doing it at your own risk.
+ This tool was belong to it's rightful owner.
 
 ## Preview
 ![](https://i.imgur.com/w6uwpH6.png)
