@@ -1,4 +1,4 @@
-# SpoTeaPy Account Generatoe
+# SpoTeaPy Account Generator
 Creates random spotify account.
 
 ## Information
@@ -21,3 +21,5 @@ pip install requests
 
 ## Legal Notice
 This is illegal if you use this without the consent of the owners (in this case, the Spotify team). I am not accountable for anything you get into, this was just a speedrun to demonstrate how account creators work. This is 100% educational, please do not misuse this tool.
+
+-The Rightful Owner
