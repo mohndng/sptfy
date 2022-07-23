@@ -2,7 +2,7 @@
 Creates random spotify account.
 
 ## Information
- This tool was belong to it's rightful owner. I am not owning the source codes instead this repository will be used only for cloning.
+ This tool was belong to it's rightful owner. I am not owning the source codes instead this repository will be used as requested only for cloning.
 
 ## Preview
 ![](https://i.imgur.com/w6uwpH6.png)
