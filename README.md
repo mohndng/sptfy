@@ -20,6 +20,8 @@ pip install requests
 5. All set!
 
 ## For Termux
+![](https://i.ibb.co/GxPyJRB/Screenshot-20220723-151849-Termux.png)
+![](https://i.ibb.co/dJf7T6h/Screenshot-20220723-150726-Termux.png)
 1. apt upgrade && apt update
 2. pkg install python
 3. pip install requests (if not already installed)
