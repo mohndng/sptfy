@@ -2,7 +2,7 @@ from sys import stdout
 from requests import post
 from os import system, _exit, path
 from random import choice, randint
-from colors import green, red, reset
+from colors import yellow, red, reset
 from time import time, sleep, strftime, gmtime
 from threading import Thread, Lock, active_count
 from string import ascii_letters, ascii_lowercase, digits
@@ -30,9 +30,9 @@ class Main:
                                       | __ |___ |\ | |___ |__/ |__|  |  |  | |__/ 
                                       |__] |___ | \| |___ |  \ |  |  |  |__| |  \ '''
 
-        print('%s%s' % (green(), logo))
+        print('%s%s' % (yellow(), logo))
 
-        print('\n\n %s[%s1%s] HTTP\n [%s2%s] SOCKS4\n [%s3%s] SOCKS5\n\n%s> %sSelect a Proxy Type%s: ' % (green(), reset(), green(), reset(), green(), reset(), green(), reset(), green(), reset()), end = '')
+        print('\n\n %s[%s1%s] HTTP\n [%s2%s] SOCKS4\n [%s3%s] SOCKS5\n\n%s> %sSelect a Proxy Type%s: ' % (yellow(), reset(), yellow(), reset(), yellow(), reset(), yellow(), reset(), yellow(), reset()), end = '')
         self.proxy_type = str(input())
         if self.proxy_type.upper() in ['1', 'HTTP']:
             self.proxy_type = 'http'
@@ -46,7 +46,7 @@ class Main:
             sleep(3)
             _exit(0)
 
-        print('%s> %sAmount to create (empty for unlimited)%s: ' % (reset(), green(), reset()), end = '')
+        print('%s> %sAmount to create (empty for unlimited)%s: ' % (reset(), yellow(), reset()), end = '')
         self.amount = str(input())
         print()
 
@@ -132,7 +132,7 @@ class Main:
             if create.json()['status'] == 1:
                 username = create.json()['username']
                 if username != '':
-                    self.write('%s[%sCREATED%s] %s:%s | Username: %s | Gender: %s | Date of Birth: %s/%s-%s' % (green(), reset(), green(), email, password, username, gender.replace(gender[0], gender[0].upper()), birth_day, birth_month, birth_year))
+                    self.write('%s[%sCREATED%s] %s:%s | Username: %s | Gender: %s | Date of Birth: %s/%s-%s' % (yellow(), reset(), yellow(), email, password, username, gender.replace(gender[0], gender[0].upper()), birth_day, birth_month, birth_year))
                     with open('Created [RAW].txt', 'a', encoding = 'UTF-8') as f: f.write('%s:%s\n' % (email, password))
                     with open('Created [CAPTURE].txt', 'a', encoding = 'UTF-8') as f: f.write('%s:%s | Username: %s | Gender: %s | Date of Birth: %s/%s-%s\n' % (email, password, username, gender.replace(gender[0], gender[0].upper()), birth_day, birth_month, birth_year))
 
@@ -172,7 +172,7 @@ class Main:
             
             while self.variables['created'] != int(self.amount):
                 continue
-            print('\n%s> %sFinished%s.' % (reset(), green(), reset()))
+            print('\n%s> %sFinished%s.' % (reset(), yellow(), reset()))
             system('pause >NUL')
             print('> Exiting . . .')
             sleep(3)
