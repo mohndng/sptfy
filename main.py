@@ -122,7 +122,7 @@ class Main:
         self.creator(choice(self.variables['proxies']))
 
     def creator(self, proxy):
-        email = '%s@%s' % (''.join(choice(mnc), choice(domains))
+        email = '%s@%s' % (''.join(choice(mnc)), choice(domains))
         password = ''.join(choice(ascii_letters + digits) for _ in range(randint(8, 14)))
         birth_year = randint(1980, 1991)
         birth_month = randint(1, 12)
