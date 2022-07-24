@@ -1,8 +1,8 @@
 # SpoTeaPy Account Generator
-Creates random spotify account.
+Creates a random spotify account.
 
 ## Information
- This tool was belong to its rightful owner. I am not owning some of the source codes instead this repository will be used as requested only for cloning. Only proxies are mine.😅
+ This tool belongs to its rightful owner/s. I do not claim ownership of all the source codes, instead this repository will be used as requested only for cloning. I only own the proxies used here.😅
 
 ## Preview
 ![](https://i.imgur.com/w6uwpH6.png)
@@ -31,6 +31,6 @@ pip install requests
 8. You can do your own here!!
 
 ## Legal Notice
-This is illegal if you use this without the consent of the owners (in this case, the Spotify team). I am not accountable for anything you get into, this was just a speedrun to demonstrate how account creators work. This is 100% educational, please do not misuse this tool.
+Running the scripts without the consent of the Spotify team is illegal. I am not accountable for anything you get into. This just demonstrates how account creators work under the hood. This was purely educational. Do not misuse this tool.
 
--The Rightful Owner
+- The Rightful Owner
