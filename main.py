@@ -2,7 +2,7 @@ from sys import stdout
 from requests import post
 from os import system, _exit, path
 from random import choice, randint
-from colors import yellow, red, reset
+from colors import yellow, cyan, red, reset
 from time import time, sleep, strftime, gmtime
 from threading import Thread, Lock, active_count
 from string import ascii_letters, ascii_lowercase, digits
