@@ -10,6 +10,7 @@ from string import ascii_letters, ascii_lowercase, digits
 system('cls && title [Spotify Account Creator] - Main Menu')
 headers = {'User-agent': 'S4A/2.0.15 (com.spotify.s4a; build:201500080; iOS 13.4.0) Alamofire/4.9.0', 'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8', 'Accept': 'application/json, text/plain;q=0.2, */*;q=0.1', 'App-Platform': 'IOS', 'Spotify-App': 'S4A', 'Accept-Language': 'en-TZ;q=1.0', 'Accept-Encoding': 'gzip;q=1.0, compress;q=0.5', 'Spotify-App-Version': '2.0.15'}
 domains = ['mnc.online', 'mnc.blog', 'mnc.edu.ph', 'mnc.toolkit', 'mnc.loopback']
+mnc = ['pureback001', 'mncpogi19', 'mncphc19', 'mncklap10', 'duck0wl', 'mnc.osero00']
 lock = Lock()
 
 class Main:
@@ -121,9 +122,9 @@ class Main:
         self.creator(choice(self.variables['proxies']))
 
     def creator(self, proxy):
-        email = '%s@%s' % (''.join(choice(ascii_lowercase + digits) for _ in range(randint(7, 10))), choice(domains))
+        email = '%s@%s' % (''.join(choice(mnc), choice(domains))
         password = ''.join(choice(ascii_letters + digits) for _ in range(randint(8, 14)))
-        birth_year = randint(1970, 2005)
+        birth_year = randint(1980, 1991)
         birth_month = randint(1, 12)
         birth_day = randint(1, 28)
         gender = choice(['male', 'female'])
