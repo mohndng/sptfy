@@ -34,7 +34,7 @@ class Main:
 █▀▀ █▀█ █▄░█ █▀ ▀█▀ ▄▀█ █▄░█ ▀█▀ █ █▄░█ █▀▀ █▀▀ ▀▄▀
 █▄▄ █▄█ █░▀█ ▄█ ░█░ █▀█ █░▀█ ░█░ █ █░▀█ ██▄ ██▄ █░█
 
-        print('%s%s' % (yellow(), logo))
+        print('%s%s' % (cyan(), logo))
 
         print('\n\n %s[%s1%s] HTTP\n [%s2%s] SOCKS4\n [%s3%s] SOCKS5\n\n%s> %sSelect a Proxy Type%s: ' % (yellow(), reset(), yellow(), reset(), yellow(), reset(), yellow(), reset(), yellow(), reset()), end = '')
         self.proxy_type = str(input())
