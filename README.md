@@ -19,7 +19,7 @@ pip install requests
 4. Enter the amount you'd like to generate.
 5. All set!
 
-## For Termux
+## For Termux (Preview)
 ![](https://i.ibb.co/GxPyJRB/Screenshot-20220723-151849-Termux.png)
 1. apt upgrade && apt update
 2. pkg install python
